@@ -1,0 +1,22 @@
+$TTL 86400
+
+@   IN  SOA ns1.cloudmatrix.local. admin.cloudmatrix.local. (
+        2026090201
+        3600
+        1800
+        604800
+        86400
+)
+
+@       IN  NS      ns1.cloudmatrix.local.
+@       IN  NS      ns2.cloudmatrix.local.
+
+ns1     IN  A       192.168.10.10
+ns2     IN  A       192.168.10.11
+
+server  IN  A       192.168.10.20
+dns     IN  A       192.168.10.10
+
+vm1     IN  A       192.168.10.101
+vm2     IN  A       192.168.10.102
+vm3     IN  A       192.168.10.103
